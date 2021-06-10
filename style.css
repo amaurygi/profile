@@ -20,7 +20,13 @@ h1, h2, h3 {
 }
 
 a:hover {
-  color: red;
+  color: #e19a6b;
+  background-color: rgb(255, 255, 255);  
+}
+
+.fab:hover {
+  color: #e19a6b;
+  background-color: rgb(255, 255, 255);  
 }
 
 img {
@@ -61,6 +67,9 @@ ul {
   padding: 15px 20px;
   border-radius: 4px;
   font-size: 15px;
+  display: block;
+  width: max-content;
+  margin: 0 auto;
 }
 
 a {
@@ -69,6 +78,7 @@ a {
   color: #6B72E1;
   font-weight: 600;
   font-size: 45px;
+  display: block;
 }
 
 @media (max-width: 960px) {
